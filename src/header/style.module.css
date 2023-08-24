@@ -1,0 +1,114 @@
+.headerTopWrapper {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    gap: 231px;
+    align-items: center;
+    color: #FAFAFA;
+    padding: 12px 0;
+}
+
+.headerTopInfoBox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: calc(100vw * 0.3);
+}
+
+.headerTopInfoText {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.headerTopLink {
+    color: #FAFAFA;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.headerTopSelect {
+    background: black;
+    color: #FAFAFA;
+    border: none;
+    outline: none;
+}
+
+.headerWrapper {
+    padding: 40px 0 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.headerNavbar {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.navbarInfoBox {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+
+.navbarTitle {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+}
+
+.navbarLinksBox {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.active-link {
+    text-decoration: underline;
+    color: black;
+}
+
+.inpWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    padding: 7px 12px 7px 20px;
+    background: #F5F5F5;
+    border-radius: 4px;
+}
+
+.serachInp {
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: transparent;
+}
+
+.secondInfoBox {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.svgsWrapper {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
