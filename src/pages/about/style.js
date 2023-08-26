@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { styled } from "styled-components";
-import Blackbgi from '../images/backgroungBlack.svg'
-import Whitebgi from '../images/backgroundWhite.svg'
+import Blackbgi from '../assets/backgroungBlack.svg'
+import Whitebgi from '../assets/backgroundWhite.svg'
 
 export const StoryWrapper = styled.div`
     padding: 80px 0 140px 273px;
