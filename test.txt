@@ -1,2 +1,4 @@
-Boris 123
-Lochinbek
+...........
+.Boris 123.
+.Lochinbek.
+...........
