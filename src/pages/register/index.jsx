@@ -11,13 +11,11 @@ import {
   RegisterRightContTitle,
   RegisterRightLink,
 } from "./style";
-import Navbar from "../../components/Navbar/index";
-import Footer from "../../components/Footer/index";
+
 
 export default function Register() {
   return (
     <RegisterMainCont>
-      <Navbar />
       <RegisterCont>
         <RegisterLeftCont />
         <RegisterRightCont>
@@ -25,7 +23,7 @@ export default function Register() {
           <RegisterRightContDesc>
             Enter your details below
           </RegisterRightContDesc>
-          <RegisterRightContInp
+            <RegisterRightContInp
             type="email"
             placeholder="Email or Phone Number"
           />
@@ -36,7 +34,6 @@ export default function Register() {
           </RegisterRightBtnsCont>
         </RegisterRightCont>
       </RegisterCont>
-      <Footer />
     </RegisterMainCont>
   );
 }

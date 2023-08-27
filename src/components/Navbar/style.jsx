@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import searchIcon from "../../assets/search.svg";
+import { NavLink } from "react-router-dom";
 
 export const NavbarCont = styled.div``;
 
@@ -22,7 +23,7 @@ export const NavbarHeaderTitle = styled.p`
   margin-right: 8px;
 `;
 
-export const NavbarHeaderLink = styled.a`
+export const NavbarHeaderLink = styled(NavLink)`
   color: #fafafa;
   text-align: center;
   font-family: "Poppins";
@@ -70,7 +71,7 @@ export const NavbarFooterMenu = styled.div`
   display: flex;
 `;
 
-export const NavbarFooterMenuItems = styled.a`
+export const NavbarFooterMenuItems = styled(NavLink)`
   font-family: "Poppins";
   font-size: 16px;
   font-style: normal;
@@ -125,7 +126,7 @@ export const NavbarFooterSearchLinksCont = styled.div`
   gap: 16px;
 `;
 
-export const NavbarFooterSearchLinks = styled.a`
+export const NavbarFooterSearchLinks = styled(NavLink)`
   width: 32px;
   height: 32px;
   display: flex;

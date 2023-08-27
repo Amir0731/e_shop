@@ -10,13 +10,11 @@ import {
   ErrorTitleContDesc,
   ErrorTitleContTxt,
 } from "./style";
-import Navbar from "../../components/Navbar/index";
-import Footer from "../../components/Footer/index";
+
 
 export default function ErrorPage() {
   return (
     <ErrorMainCont>
-      <Navbar />
       <ErrorCont>
         <ErrorTitleCont>
           <ErrorTitleContDesc>Home</ErrorTitleContDesc>
@@ -31,7 +29,6 @@ export default function ErrorPage() {
           <ErrorPageTitleBtn>Back to home page</ErrorPageTitleBtn>
         </ErrorPageCont>
       </ErrorCont>
-      <Footer />
     </ErrorMainCont>
   );
 }

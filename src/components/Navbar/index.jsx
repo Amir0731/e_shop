@@ -37,10 +37,10 @@ export default function Navbar() {
       <NavbarFooterCont>
         <NavbarFooterLogo>Exclusive</NavbarFooterLogo>
         <NavbarFooterMenu>
-          <NavbarFooterMenuItems href="#">Home</NavbarFooterMenuItems>
-          <NavbarFooterMenuItems href="#">Contact</NavbarFooterMenuItems>
-          <NavbarFooterMenuItems href="#">About</NavbarFooterMenuItems>
-          <NavbarFooterMenuItems href="#">Sign Up</NavbarFooterMenuItems>
+          <NavbarFooterMenuItems to={'/'}>Home</NavbarFooterMenuItems>
+          <NavbarFooterMenuItems to={'/contact'}>Contact</NavbarFooterMenuItems>
+          <NavbarFooterMenuItems to={'/about'}>About</NavbarFooterMenuItems>
+          <NavbarFooterMenuItems to={'/register'}>Sign Up</NavbarFooterMenuItems>
         </NavbarFooterMenu>
         <NavbarFooterMainSearchCont>
           <NavbarFooterSearchInpCont>
@@ -51,13 +51,13 @@ export default function Navbar() {
             <NavbarFooterSearchBtn />
           </NavbarFooterSearchInpCont>
           <NavbarFooterSearchLinksCont>
-            <NavbarFooterSearchLinks href="#">
+            <NavbarFooterSearchLinks to={'/wishlist'}>
               <WishList />
             </NavbarFooterSearchLinks>
-            <NavbarFooterSearchLinks href="#">
+            <NavbarFooterSearchLinks to={'/cart'}>
               <Cart />
             </NavbarFooterSearchLinks>
-            <NavbarFooterSearchLinks href="#">
+            <NavbarFooterSearchLinks to={'/account'}>
               <User />
             </NavbarFooterSearchLinks>
           </NavbarFooterSearchLinksCont>

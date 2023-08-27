@@ -13,14 +13,11 @@ import {
   LoginRightContInp,
   LoginRightContTitle,
 } from "./style";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
 import { ReactComponent as IconGoogle } from "../../assets/Icon-Google.svg";
 
 export default function Login() {
   return (
     <LoginCont>
-      <Navbar />
       <LoginContMain>
         <LoginLeftCont />
         <LoginRightCont>
@@ -39,7 +36,6 @@ export default function Login() {
           </LoginFooterLinksCont>
         </LoginRightCont>
       </LoginContMain>
-      <Footer />
     </LoginCont>
   );
 }

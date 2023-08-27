@@ -37,16 +37,8 @@ import {
   CouponInp,
   CouponBtn,
 } from "./style";
-// import CustomCheckbox from "./style";
 
 export default function Check() {
-  //   const App = () => {
-  //     const [isChecked, setIsChecked] = useState(false);
-
-  //     const handleChange = () => {
-  //       setIsChecked(!isChecked);
-  //     };
-
   return (
     <Body>
       <Roadmap>
@@ -108,7 +100,6 @@ export default function Check() {
             <BasicTxt16>
               Save this information for faster check-out next time
             </BasicTxt16>
-            {/* <CustomCheckbox isChecked={isChecked} onChange={handleChange} /> */}
           </SaveDiv>
         </DetailsFrame>
         <TotalFrame>

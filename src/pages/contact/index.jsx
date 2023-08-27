@@ -26,7 +26,6 @@ import { ReactComponent as EmailIcon } from "../../assets/icons-mail.svg";
 export default function Contact() {
   return (
     <ContactCont>
-      <Navbar />
       <ContactMainCont>
         <ContactTitleMainCont>
           <ContactTitle>Home</ContactTitle>
@@ -71,7 +70,6 @@ export default function Contact() {
           </ContactMainRightCont>
         </ContactMainContentCont>
       </ContactMainCont>
-      <Footer />
     </ContactCont>
   );
 }
