@@ -188,6 +188,15 @@ export const ServicesText = styled.p`
     line-height: 21px;
 `
 
-
-
-
+export const BgiBox2 = styled.div`
+    width: 80px;
+    height: 80px;
+    background-image: url('${Blackbgi}');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+`

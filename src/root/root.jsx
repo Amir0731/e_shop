@@ -11,6 +11,7 @@ import NotFound from '../pages/404-error/index.jsx'
 import Register from '../pages/login/index.jsx'
 import Login from '../pages/register/index.jsx'
 import Contact from '../pages/contact/index.jsx'
+import Home from '../pages/Home/index.jsx'
 
 
 // import Home from '../pages/'
@@ -19,7 +20,7 @@ export default function Root() {
         <div>
             <Routes>
                 <Route path='/' element={<Main />}>
-                    {/* <Route index element={<Main />} /> */}
+                    <Route index element={<Home />} />
                     <Route path='about' element={<About />} />
                     <Route path='wishlist' element={<Wishlist />} />
                     <Route path='login' element={<Login />} />

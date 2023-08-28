@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import Blackbgi from '../../assets/backgroungBlack.svg'
+import Whitebgi from '../../assets/backgroundWhite.svg'
 
 export const Container = styled.div`
     max-width: 1170px;
@@ -449,7 +451,9 @@ export const CircleArrowUp = styled.div`
     width: 46px;
     height: 46px;
     background: #f5f5f5;
-    margin: 62px auto;
+    margin-top: 62px;
+    margin-left: calc(100vw * 0.9);
+    margin-bottom: 32px;
     border-radius: 50%;
     padding: 11px;
 `
@@ -590,4 +594,38 @@ export const ArrivalDiv4 = styled.div`
     background: #000;
     background-repeat: no-repeat;
     background-position: top 38px left 34px;
+`
+
+
+export const ServicesBox = styled.div`
+    display: flex;
+    gap: 88px;
+    justify-content: center;
+    margin-top: 140px;
+`
+
+export const ServicesTitle = styled.h2`
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 24px 0 8px;
+`
+
+export const ServicesText = styled.p`
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+`
+
+export const BgiBox = styled.div`
+    width: 80px;
+    height: 80px;
+    background-image: url('${Blackbgi}');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 `

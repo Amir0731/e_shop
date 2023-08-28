@@ -12,7 +12,7 @@ import { ReactComponent as IconBucket } from "../../assets/icon-delete.svg";
 import { ReactComponent as IconEye } from "../../assets/eye.svg";
 import { ReactComponent as Rentagle } from "../../assets/CategoryRectangle.svg";
 import { ReactComponent as Star } from "../../assets/star.svg";
-import { ReactComponent as YarimStar } from "../../assets/YarimStar.svg";
+import { ReactComponent as YarimStar } from "../../assets/lochinImages/yarimstar.svg";
 import { ReactComponent as EmptyStar } from "../../assets/EptyStar.svg";
 
 export default function Wishlist() {
